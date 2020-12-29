@@ -16,6 +16,7 @@ function memo() {
       const formText = document.getElementById("content");
       const HTML = `
         <div class="post" data-id=${item.id}>
+          <div class="post-date">
             投稿日時：${item.created_at}
           </div>
           <div class="post-content">
